@@ -1,0 +1,11 @@
+Penjelasan Kode:
+System.out.printf("%-15s : %s%n", ...):
+% menandakan format spesifikasi.
+-15s berarti lebar 15 karakter, rata kiri, tipe string.
+: %s adalah format penulisan string setelah tanda :.
+%n adalah untuk membuat baris baru (newline).
+Header dan Footer:
+Garis = digunakan untuk memperjelas batas atas dan bawah dari setiap bagian.
+\t digunakan untuk tabulasi dan memberikan kesan tengah pada judul.
+Penggunaan %-15s:
+Kolom pertama untuk kategori informasi seperti "Nama", "NIDN", "Alamat", dll., disesuaikan dengan lebar 15 karakter agar rata kanan dan tidak bergeser ketika ada informasi yang lebih panjang atau pendek.
